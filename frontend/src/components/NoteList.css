@@ -1,0 +1,71 @@
+/* Main container */
+.Notelist {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  /* Error message */
+  .deleteError {
+    color: #d9534f;
+    background-color: #ffe6e6;
+    padding: 0.75rem 1rem;
+    border-left: 4px solid #d9534f;
+    border-radius: 4px;
+    font-size: 0.95rem;
+  }
+  
+  /* Note card */
+  .note-card {
+    padding: 1.25rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fafafa;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Title */
+  .note-card h2 {
+    margin-bottom: 0.5rem;
+    color: #333;
+    font-size: 1.2rem;
+  }
+  
+  /* Content and Cat Fact */
+  .note-card p {
+    margin: 0.3rem 0;
+    color: #555;
+    font-size: 0.95rem;
+  }
+  
+  .note-card p:last-of-type {
+    font-style: italic;
+    color: #888;
+  }
+  
+  /* Delete button */
+  .deleteButton {
+    margin-top: 0.8rem;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.2s ease;
+  }
+  
+  .deleteButton:hover {
+    background-color: #cc0000;
+  }
+  
+  /* Empty notes message */
+  .noNotes {
+    text-align: center;
+    color: #777;
+    font-size: 1rem;
+    padding: 1rem;
+  }
+  

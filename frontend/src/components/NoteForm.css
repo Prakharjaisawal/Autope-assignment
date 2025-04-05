@@ -1,0 +1,53 @@
+/* Form container */
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 2rem 0;
+    padding: 1.5rem;
+    border-radius: 8px;
+    background-color: #f7f7f7;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.08);
+  }
+  
+  /* Input fields */
+  .titleInput,
+  .contentInput {
+    font-size: 1rem;
+    padding: 0.75rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    background-color: white;
+  }
+  
+  /* Hover/Focus effect */
+  .titleInput:focus,
+  .contentInput:focus {
+    border-color: #007bff;
+  }
+  
+  /* Textarea specifically */
+  .contentInput {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  /* Submit button */
+  .addNoteButton {
+    align-self: flex-start;
+    padding: 0.6rem 1.2rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .addNoteButton:hover {
+    background-color: #218838;
+  }
+  
