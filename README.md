@@ -27,12 +27,13 @@ cat_note_app/ --> backend/--> Dockerfile
 
 ### 1. Clone the Repo
 ```bash
-git clone https://github.com/yourusername/cat_note_app.git
-cd cat_note_app
+git clone https://github.com/Prakharjaisawal/Autope-assignment.git
+cd Autope-assignment
 
 ## create .env and update variable as given in .env.example
-cp backend/.env.example backend/.env
-cp frontend/.env.example frontend/.env
+Copy-Item backend/.env.example -Destination backend/.env
+Copy-Item frontend/.env.example -Destination frontend/.env
+
 
 
 ## Build docker
@@ -52,13 +53,14 @@ Frontend should be at: http://localhost:3000
 
 ### 1. Clone the Repo
 ```bash
-git clone https://github.com/yourusername/cat_note_app.git
-cd cat_note_app
+git clone https://github.com/Prakharjaisawal/Autope-assignment.git
+cd Autope-assignment
 
 
 ## 2 create .env and update variable as given in .env.example
-cp backend/.env.example backend/.env
-cp frontend/.env.example frontend/.env
+Copy-Item backend/.env.example -Destination backend/.env
+Copy-Item frontend/.env.example -Destination frontend/.env
+
 
 
 ## 3 start fronted
@@ -67,6 +69,8 @@ npm install
 npm start
 
 ## 4 start backend
+
+open new terminaal and go to Autope-assignment\
 cd backend
 npm install
 npm run dev
