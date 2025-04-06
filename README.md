@@ -31,8 +31,8 @@ git clone https://github.com/Prakharjaisawal/Autope-assignment.git
 cd Autope-assignment
 
 ## create .env and update variable as given in .env.example
-Copy-Item backend/.env.example -Destination backend/.env
-Copy-Item frontend/.env.example -Destination frontend/.env
+## Copy-Item backend/.env.example -Destination backend/.env
+## Copy-Item frontend/.env.example -Destination frontend/.env
 
 
 
